@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.2.2
+
+1. Single Ip scan
+
 ## 3.2.1
 
 1. Now GHA runs tests against 3 platforms windows, ubuntu, macos
