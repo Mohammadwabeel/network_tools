@@ -1,6 +1,7 @@
 # Network Tools
 
-[![pub package](https://img.shields.io/pub/v/network_tools.svg)](https://pub.dev/packages/network_tools) [![Dart](https://github.com/osociety/network_tools/actions/workflows/dart.yml/badge.svg)](https://github.com/osociety/network_tools/actions/workflows/dart.yml) [![codecov](https://codecov.io/gh/git-elliot/network_tools/branch/main/graph/badge.svg?token=J9G2472GQZ)](https://codecov.io/gh/git-elliot/network_tools)
+[![pub package](https://img.shields.io/pub/v/network_tools.svg)](https://pub.dev/packages/network_tools)
+[![codecov](https://codecov.io/gh/git-elliot/network_tools/branch/main/graph/badge.svg?token=J9G2472GQZ)](https://codecov.io/gh/git-elliot/network_tools)
 
 Network Tools Supported
 
@@ -95,6 +96,10 @@ Add this code to your `main.dart` file
       });
 ```
 
+## Run unit tests
+
+1. dart test
+
 ## Sample App
 
 [Vernet](https://github.com/git-elliot/vernet) is the open source app built on top of this library.
@@ -105,9 +110,9 @@ You can check out the code and implementation for more detailed use case of this
 1. Support this project by becoming stargazer of this project.
 2. Buy me a coffee.
 
-    | Librepay | 
-    |----------|
-    |<noscript><a href="https://liberapay.com/OpenSociety/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>|
+   | Bitcoin                                                                                                           | UPI                                                                                                                |
+   | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+   | <img src="https://raw.githubusercontent.com/git-elliot/network_tools/main/donation/bitcoin_qr.png" width = "100"> | <img src="https://raw.githubusercontent.com/git-elliot/network_tools/main/donation/bhim_upi_qr.png" width = "100"> |
 
 3. Support me on Ko-Fi
 
