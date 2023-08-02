@@ -148,6 +148,23 @@ class HostScanner {
     return activeHostsController.stream;
   }
 
+  static Future<ActiveHost?> getPingableDevice(
+    String subnet, {
+    required int hostId,
+    int timeoutInSeconds = 1,
+    ProgressCallback? progressCallback,
+    bool resultsInAddressAscendingOrder = true,
+  }) {
+    final StreamController<ActiveHost> activeHostsController =
+        StreamController<ActiveHost>();
+    return _getHostFromPing(
+      activeHostsController: activeHostsController,
+      host: '$subnet.$hostId',
+      i: hostId,
+      timeoutInSeconds: timeoutInSeconds,
+    );
+  }
+
   /// Will search devices in the network inside new isolate
   static Future<void> _startSearchingDevices(dynamic params) async {
     final channel = IsolateManagerController(params);
